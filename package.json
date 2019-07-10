@@ -1,0 +1,28 @@
+{
+  "name": "twilio-client-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-webpack": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidpanaho/twilio-client-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidpanaho/twilio-client-test/issues"
+  },
+  "homepage": "https://github.com/davidpanaho/twilio-client-test#readme",
+  "devDependencies": {
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "twilio-client": "^1.7.5"
+  }
+}
