@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-webpack": "webpack",
+    "build-parcel": "parcel build src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/davidpanaho/twilio-client-test#readme",
   "devDependencies": {
+    "parcel-bundler": "^1.12.3",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
   },
