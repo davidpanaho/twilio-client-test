@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npm run build-webpack | npm run build-parcel",
     "build-webpack": "webpack",
     "build-parcel": "parcel build src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
